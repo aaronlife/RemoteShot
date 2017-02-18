@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.aaronlife.remoteshot.CameraActivity"
+    android:background="#000"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/message"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textSize="30dp"
+              android:textColor="#EEE"/>
+
+    <com.aaronlife.remoteshot.CameraView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--
+    <ImageView android:id="@+id/previewPic"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"/>
+    -->
+
+
+</LinearLayout>
